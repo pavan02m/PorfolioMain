@@ -34,6 +34,16 @@ h1,h2,h3,.handwritten{font-family:'Caveat','Patrick Hand',cursive}
 h1{font-size:clamp(55px,6vw,81px);line-height:.92;letter-spacing:-1.6px;font-weight:600;margin:24px 0 23px}
 .highlight{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
 .highlight:before{content:"";position:absolute;inset:9px -2px 0;background:#ffe36c;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
+.highlight-blue{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
+.highlight-blue:before{content:"";position:absolute;inset:9px -2px 0;background:#c2defb;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
+.highlight-lavender{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
+.highlight-lavender:before{content:"";position:absolute;inset:9px -2px 0;background:#d9c5fa;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
+.highlight-green{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
+.highlight-green:before{content:"";position:absolute;inset:9px -2px 0;background:#bde7c8;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
+.highlight-pink{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
+.highlight-pink:before{content:"";position:absolute;inset:9px -2px 0;background:#f7c6d1;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
+.highlight-skin{position:relative;display:inline-block;z-index:0;padding:0 7px 4px}
+.highlight-skin:before{content:"";position:absolute;inset:9px -2px 0;background:#ffe2a0;border-radius:8px;transform:rotate(-1.5deg);z-index:-1}
 .intro{max-width:475px;color:var(--muted);font:400 19px/1.45 'Patrick Hand',cursive;margin:0}
 .hero-actions{display:flex;gap:13px;align-items:center;margin-top:26px;flex-wrap:wrap}
 .button{min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:0 19px;border-radius:5px;font:600 18px 'Caveat',cursive;transition:transform .18s,box-shadow .18s,background .18s}
